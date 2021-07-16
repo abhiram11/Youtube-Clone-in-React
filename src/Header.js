@@ -7,7 +7,6 @@ import MicIcon from "@material-ui/icons/Mic";
 import VideoCallIcon from "@material-ui/icons/VideoCall";
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
-import { Avatar } from "@material-ui/core";
 import HeaderOptions from "./HeaderOptions";
 
 function Header() {
@@ -40,7 +39,7 @@ function Header() {
           <HeaderOptions Icon={VideoCallIcon} />
           <HeaderOptions Icon={AppsIcon} />
           <HeaderOptions Icon={NotificationsIcon} />
-          <HeaderOptions Icon={Avatar} avatar={true} />
+          <HeaderOptions avatar={true} />
         </div>
       </div>
     </div>
