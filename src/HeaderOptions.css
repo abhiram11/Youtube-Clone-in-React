@@ -1,0 +1,7 @@
+.headerOptions {
+  cursor: pointer;
+}
+
+.headerOptions > .MuiSvgIcon-root {
+  font-size: 26px !important;
+}
