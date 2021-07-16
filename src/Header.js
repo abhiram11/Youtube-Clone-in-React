@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import DehazeIcon from "@material-ui/icons/Dehaze";
+import MenuIcon from "@material-ui/icons/Menu";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import SearchIcon from "@material-ui/icons/Search";
 import MicIcon from "@material-ui/icons/Mic";
@@ -13,7 +13,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header__left">
-        <DehazeIcon />
+        <MenuIcon />
         <div
           className="header__leftLogo"
           onClick={() => window.open("https://www.youtube.com/", "_blank")}

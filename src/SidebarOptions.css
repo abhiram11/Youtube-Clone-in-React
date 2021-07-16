@@ -1,0 +1,26 @@
+.sidebarOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #909090;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 50;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.sidebarOptions:hover {
+  background-color: #313131;
+}
+
+.sidebarOptions > .MuiSvgIcon-root {
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+/* .sidebarOptions:active {
+  color: #ffffff;
+} */

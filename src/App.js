@@ -1,5 +1,6 @@
 import Header from "./Header";
 import "./App.css";
+import Sidebar from "./Sidebar";
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       {/* Header */}
       <Header />
       {/* Body: Sidebar, Videos, Genre specifier row if possible */}
+      <div className="body">
+        <Sidebar />
+      </div>
     </div>
   );
 }
