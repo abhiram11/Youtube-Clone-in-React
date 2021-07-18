@@ -8,12 +8,18 @@ import VideoCallIcon from "@material-ui/icons/VideoCall";
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import HeaderOptions from "./HeaderOptions";
+import { justAnAlert } from "./App";
 
 function Header() {
+  const updatedjustAnAlert = (e) => {
+    e.preventDefault();
+    justAnAlert();
+  };
+
   return (
     <div className="header">
       <div className="header__left">
-        <MenuIcon />
+        <MenuIcon onClick={justAnAlert} />
         <div
           className="header__leftLogo"
           onClick={() => window.open("https://www.youtube.com/", "_blank")}
@@ -26,11 +32,11 @@ function Header() {
       <div className="header__center">
         <form>
           <input placeholder="Search" />{" "}
-          <button>
+          <button onClick={justAnAlert} onSubmit={() => updatedjustAnAlert}>
             {" "}
             <SearchIcon />{" "}
           </button>{" "}
-          <MicIcon />
+          <MicIcon onClick={justAnAlert} />
         </form>
       </div>
       <div className="header__right">

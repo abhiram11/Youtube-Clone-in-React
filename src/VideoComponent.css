@@ -1,0 +1,59 @@
+.videoComponent {
+  cursor: pointer;
+  /* border: 1px solid white; */
+  width: fit-content;
+  height: fit-content;
+  padding-bottom: 40px;
+  padding-right: 20px;
+}
+
+.videoComponent > img {
+  object-fit: scale-down;
+  background-color: black;
+
+  width: 320px;
+  height: 180px;
+}
+
+.videoComponent__info {
+  display: flex;
+  color: white;
+  margin-top: 10px;
+}
+
+.videoComponent__infoAvatar {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.videoComponent__infoText {
+  display: flex;
+  flex-direction: column;
+}
+
+.videoComponent__infoText > h3 {
+  font-weight: 600;
+}
+
+.videoComponent__infoText > h4 {
+  font-weight: 100;
+  color: #aaaaaa;
+}
+
+.videoComponent__infoTextUser:hover {
+  color: white;
+}
+
+.videoComponent__infoExtra {
+  margin-left: auto;
+  margin-right: 5px;
+  visibility: hidden;
+}
+/* 
+.videoComponent__infoExtra:hover {
+  visibility: visible;
+} */
+
+.videoComponent:hover .videoComponent__infoExtra {
+  visibility: visible;
+}

@@ -1,0 +1,11 @@
+.videos {
+  /* flex: 0.9; */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  background-color: #181818;
+  padding-top: 25px;
+  padding-left: 30px;
+}

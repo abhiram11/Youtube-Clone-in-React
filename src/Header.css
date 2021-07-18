@@ -8,6 +8,8 @@
   position: sticky;
   top: 0;
   padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #313131;
 }
 .header__left {
   flex: 0.2;
