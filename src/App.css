@@ -2,8 +2,14 @@
   background-color: #202020;
   width: 100vw;
   height: 100vh;
+  font-family: Arial;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .body {
   display: flex;
+  /* max-width: 1440px; */
+
+  /* max-width: ; */
 }

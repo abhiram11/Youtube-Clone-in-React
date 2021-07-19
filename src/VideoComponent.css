@@ -31,12 +31,12 @@
   flex-direction: column;
 }
 
-.videoComponent__infoText > h3 {
-  font-weight: 600;
-}
-
 .videoComponent__infoText > h4 {
   font-weight: 100;
+}
+
+.videoComponent__infoText > h5 {
+  /* font-weight: 100; */
   color: #aaaaaa;
 }
 
@@ -46,7 +46,7 @@
 
 .videoComponent__infoExtra {
   margin-left: auto;
-  margin-right: 5px;
+  /* margin-right: 10px; */
   visibility: hidden;
 }
 /* 

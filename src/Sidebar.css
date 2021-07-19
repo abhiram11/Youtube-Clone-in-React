@@ -1,6 +1,9 @@
 .sidebar {
   /* flex: 0.1; */
-  margin-top: 10px;
+  padding-top: 25px;
+  height: 100vh;
+  background-color: #202020;
+  /* height: 100%; */
   /* z-index: 999; */
   /* margin-left: 1px; */
 }

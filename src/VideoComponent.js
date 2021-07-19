@@ -22,9 +22,9 @@ function VideoComponent({
       <div className="videoComponent__info">
         <Avatar className="videoComponent__infoAvatar" src={photoUrl} />
         <div className="videoComponent__infoText">
-          <h3>{title}</h3>
-          <h4 className="videoComponent__infoTextUser">{user}</h4>
-          <h4>{description}</h4>
+          <h4>{title}</h4>
+          <h5 className="videoComponent__infoTextUser">{user}</h5>
+          <h5>{description}</h5>
         </div>
         <div className="videoComponent__infoExtra">
           <MoreVertIcon />
