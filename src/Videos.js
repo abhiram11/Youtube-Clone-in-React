@@ -71,6 +71,17 @@ function Videos() {
       description: "3.2T Views",
     },
     /////////////////////////////
+    // https://slack-clone-00001.firebaseapp.com/
+    {
+      videoUrl: "https://slack-clone-00001.firebaseapp.com/",
+      previewUrl: "https://img.youtube.com/vi/yRy7Z8eWq2c/sddefault.jpg",
+      title: "Slack Clone (Webpage)",
+      photoUrl:
+        "https://lh3.googleusercontent.com/ogw/ADea4I5HL-IsHBtXW7Nh26jwXrnRbwmfay3pbLZCqNKRGQ=s32-c-mo",
+      user: "Abhiram Satpute",
+      description: "Real-time chat available",
+    },
+
     {
       videoUrl: "https://github.com/abhiram11",
       previewUrl:
